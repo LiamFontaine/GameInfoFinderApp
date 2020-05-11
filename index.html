@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important News</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="mainTitle">GameRaterr</h1>
+    </header>
+    <main>
+        <h1 class="gamesTitle">Select your favorite game!</h1>
+        <form class="gamesForm" id="form">
+            <label>
+                <br>
+                <select id="select">
+                    <option>Select a game</option>
+                    <option value="csgo">Counter-Strike: Global Offensive</option>
+                    <option value="r6">Rainbow Six: Siege</option>
+                    <option value="gtav">Grand Theft Auto V</option>
+                </select>
+            </label>
+            <br>
+            <div id="categoriesForm">
+            </div>
+            <div id="results"></div>
+        </form>
+
+        <h2 class="h2review">Reviews</h2>
+        <br>
+        <section class="formWrapper">
+            <h3>New game review</h3>
+            <form id="review">
+                <label>
+                    Review game
+                    <input type="text" name="gameName" id="gameName" />
+                </label>
+                <label>
+                    Type your review here
+                    <textarea name="typedtext" id="typedtext"></textarea>
+                </label>
+                <label>
+                    What is your (nick)name?
+                    <textarea name="writer" id="writer"></textarea>
+                </label>
+                <button type="submit">
+                    Post
+                </button>
+            </form>
+        </section>
+    </main>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>

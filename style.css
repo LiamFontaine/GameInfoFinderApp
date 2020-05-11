@@ -1,0 +1,172 @@
+body {
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+}
+
+.mainTitle {
+    font-size: 30px;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.gamesTitle {
+    width: auto;
+    height: 20%;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 45px;
+    border-style: dotted;
+}
+
+.gamesForm label {
+    width: 100%;
+    padding-left: 2%;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 400;
+}
+
+.gamesForm label u {
+    font-weight: 600;
+    color: maroon;
+}
+
+.gamesForm select {
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 0.9em;
+    color: black;
+    font-family: 'raleway';
+
+}
+
+.gamesForm #categoriesForm {
+    margin-top: 20%;
+}
+
+.gamesForm li {
+    font-size: 0.9em;
+    margin-bottom: 5%;
+    color: black;
+    margin-left: 15px;
+    border: 1px solid black;
+    padding: 3%;
+}
+
+.gamesForm li i {
+    font-size: 0.8em;
+    color: grey;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    color: black;
+    box-sizing: border-box;
+}
+
+section {
+    max-width: 700px;
+    width: 100%;
+}
+
+.formWrapper {
+    padding: 0px 15px;
+}
+
+label {
+    display: block;
+    margin-top: 2%;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+input,
+textarea {
+    margin-top: 5px;
+    display: block;
+    font-size: 1em;
+}
+
+input[type="text"],
+textarea {
+    width: 75%;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.formWrapper button {
+    margin-top: 10px;
+}
+
+.post {
+    border-top: 0.5px solid lightslategray;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.post h3,
+.post h5,
+.post p {
+    padding: 0px 15px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.65em;
+    color: maroon;
+    margin-top: 1%;
+}
+
+.post p {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: 0.9em;
+    line-height: 12px;
+}
+
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    min-width: 80px;
+    font-size: 0.7em;
+    padding: 10px;
+    border: 1px solid maroon;
+    background-color: white;
+
+}
+
+
+h2 {
+    margin-left: 2%;
+    margin-top: 7.5%;
+}
+
+.h2review {
+    margin-left: 2%;
+}
+
+ul {
+    list-style-type: none;
+}
